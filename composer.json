@@ -1,0 +1,32 @@
+{
+    "name": "adrec/backpack-import",
+    "description": "Import Operation for Laravel Backpack CRUD - supports CSV and Excel file imports",
+    "keywords": ["laravel", "backpack", "import", "csv", "excel", "crud"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrec",
+            "email": "dev@adrec.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "backpack/crud": "^7.0",
+        "maatwebsite/excel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adrec\\BackpackImport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adrec\\BackpackImport\\AdrecImportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
