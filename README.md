@@ -297,4 +297,4 @@ MIT
 
 ## Developer
 
-**Adrec** — [dev@adrec.com](mailto:dev@adrec.com)
+**Adrec** — [dev@adrec.com.vn](mailto:dev@adrec.com)
